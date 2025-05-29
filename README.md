@@ -123,16 +123,3 @@
 
 ---
 
-## 🚀 Запуск
-
-```bash
-# 1. Установите зависимости
-conda env create -f environment.yml
-conda activate foul-detect
-
-# 2. Скачайте веса основного чекпоинта
-bash scripts/download_weights.sh  # (~250 MB)
-
-# 3. Инференс на примере
-python infer.py --video path/to/clip.mp4 --out results.json
-
