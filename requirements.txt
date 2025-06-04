@@ -1,0 +1,28 @@
+# Global dependencies for the Basketball Foul Detection project
+# Inference & training
+torch>=2.1
+torchvision>=0.16
+rfdetr==1.1.0
+opencv-python
+pillow
+moviepy
+tqdm
+supervision
+pandas
+numpy
+matplotlib
+
+# Web demo
+fastapi
+uvicorn
+
+# Data collection & processing
+ffmpeg-python
+yt-dlp
+pytubefix
+pydub
+nest_asyncio
+requests
+whisper
+librosa
+soundfile
