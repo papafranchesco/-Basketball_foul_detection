@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-rfdetr==1.1.0
-torch
-opencv-python
