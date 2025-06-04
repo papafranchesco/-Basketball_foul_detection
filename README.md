@@ -134,7 +134,3 @@ pip install -r web_demo/requirements.txt
 uvicorn web_demo.app:app --host 0.0.0.0 --port 8000
 ```
 
-При необходимости используйте `ngrok` для публикации эндпойнта в интернет.
-
----
-
