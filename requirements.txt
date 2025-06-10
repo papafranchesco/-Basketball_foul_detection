@@ -15,7 +15,10 @@ matplotlib
 # Web demo
 fastapi
 uvicorn
+python-multipart
 
+# LLM
+openai          
 # Data collection & processing
 ffmpeg-python
 yt-dlp
